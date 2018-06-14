@@ -51,7 +51,7 @@
     <section class="filters">
       <h2 class="visually-hidden">Фильтр товаров</h2>
       <!--форма фильтра-->
-      <form action="https://echo.htmlacademy.ru" method="post">
+      <form class="filter" caction="https://echo.htmlacademy.ru" method="post">
         <fieldset>
           <legend>
             Сортировка:
@@ -82,19 +82,19 @@
             Жирность:
           </legend>
           <ul>
-            <li>
+            <li class="filter-option">
               <input type="radio" name="fat" value="0" id="filter-0" />
               <label for="filter-0">0%</label>
             </li>
-            <li>
+            <li class="filter-option">
               <input type="radio" name="fat" value="10" id="filter-10" checked>
               <label for="filter-10">до 10%</label>
             </li>
-            <li>
+            <li class="filter-option">
               <input type="radio" name="fat" value="30" id="filter-30" />
               <label for="filter-30">до 30%</label>
             </li>
-            <li>
+            <li class="filter-option">
               <input type="radio" name="fat" value="high" id="filter-high" />
               <label for="filter-high">выше 30%</label>
             </li>
@@ -105,23 +105,23 @@
             Наполнители:
           </legend>
           <ul>
-            <li>
+            <li class="filter-option">
               <input type="checkbox" name="chocolate" id="filter-chocolate" checked />
               <label for="filter-chocolate">шоколадные</label>
             </li>
-            <li>
+            <li class="filter-option">
               <input type="checkbox" name="sugar" id="filter-sugar" checked />
               <label for="filter-sugar">сахарные присыпки</label>
             </li>
-            <li>
+            <li class="filter-option">
               <input type="checkbox" name="fruits" id="filter-fruits" />
               <label for="filter-fruits">фрукты</label>
             </li>
-            <li>
+            <li class="filter-option">
               <input type="checkbox" name="syrop" id="filter-syrop" />
               <label for="filter-syrop">сиропы</label>
             </li>
-            <li>
+            <li class="filter-option">
               <input type="checkbox" name="jam" id="filter-jam" />
               <label for="filter-jam">джемы</label>
             </li>
@@ -239,36 +239,36 @@
   </footer>
 
   <section class="modal modal-basket">
-    <h2>Корзина</h2>
+    <h2 class="visually-hidden">Корзина</h2>
     <form class="basket-form" action="https://echo.htmlacademy.ru" method="post">
-      <table>
+      <table class="basket">
         <tr>
-          <td>
+          <td class="item-name">
             Пломбир с апельсиновым джемом
           </td>
-          <td>
+          <td class="item-price">
             1,5кгх220 руб.
           </td>
-          <td>
+          <td class="item-summ">
             300 руб.
           </td>
         </tr>
         <tr>
-          <td>
+          <td class="item-name">
             Клубничный пломбир с присыпкой
           </td>
-          <td>
+          <td class="item-price">
             1,5кгх300 руб.
           </td>
-          <td>
+          <td class="item-summ">
             450 руб.
           </td>
         </tr>
         <tr>
-          <td colspan="2">
+          <td class="total" colspan="2">
             Итого:
           </td>
-          <td>
+          <td class="total">
             750 руб.
           </td>
         </tr>
