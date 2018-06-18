@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Roboto Bold", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: bold;
+  color: #ffffff;
+
+  background-color: #849d8f;
+}
+
+.main-navigation {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: bold;
+}
+
+.site-navigation,
+.site-navigation-submenu,
+.user-navigation {
+  list-style: none;
+}
+
+.site-navigation a,
+.user-navigation a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.site-navigation a:hover {
+  color: #333333;
+  background-color: #f7f6f3;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border-radius: 20px;
+}
+
+.site-navigation a:focus {
+  color: #333333;
+  background-color: #f7f6f3;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border-radius: 20px;
+  box-shadow: inset 0px 2px 1px 0px rgba(105, 105, 105, 0.004);
+}
+
+.site-navigation-submenu a:hover {
+  /*color: #333333;*/
+  background-color: #fbded7;
+  border-radius: 0;
+}
+
+.site-navigation-submenu a:focus {
+  background-color: #f6b5a5;
+}
+
+.circle {
+  background-color: #a1b4a9;
+  /*background-image:*/ ;
+}
+
+.circle a:hover {
+  background-color: #f8f7f4;
+}
+
+.login {
+    background-color: #a1b4a9;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-radius: 20px;
+}
+
+.login a:hover {
+  color: #333333;
+  background-color: f8f7f4;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border-radius: 20px;
+}
+
+.basket {
+  background-color: #a1b4a9;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border-radius: 20px;
+}
+
+.basket a:hover {
+  color: #333333;
+  background-color: f8f7f4;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border-radius: 20px;
+}
+
+.header-contacts {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.phone {
+  font-size: 22px;
+  line-height: 24px;
+}
