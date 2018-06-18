@@ -7,60 +7,60 @@
 </head>
 
 <body>
-  <header class="main header">
-    <nav class="main navigation">
-      <a class="main-header-logo">
+  <header class="main-header">
+    <nav class="main-navigation">
+      <a class="main-header_logo">
       <img src="img/logo.svg" width="154" height="64" alt="логотип Gllacy">
       </a>
       <ul class="site-navigation">
-        <li><a href="#">Каталог</a>
-          <ul>
-            <li><a href="#">Новинки</a></li>
-            <li><a href="catalog.html">Сливочное</a></li>
-            <li><a href="#">Щербеты</a></li>
-            <li><a href="#">Фруктовый лед</a></li>
-            <li><a href="#">Мелорин</a></li>
+        <li class="site-navigation-item"><a class="site-navigation-link" href="#">Каталог</a>
+          <ul class="site-navigation-submenu">
+            <li class="submenu-item"><a class="submenu-item-link" href="#">Новинки</a></li>
+            <li class="submenu-item"><a class="submenu-item-link" href="catalog.html">Сливочное</a></li>
+            <li class="submenu-item"><a class="submenu-item-link" href="#">Щербеты</a></li>
+            <li class="submenu-item"><a class="submenu-item-link" href="#">Фруктовый лед</a></li>
+            <li class="submenu-item"><a class="submenu-item-link" href="#">Мелорин</a></li>
           </ul>
         </li>
-        <li><a href="delivery.html">Доставка и оплата</a></li>
-        <li><a href="about.html">О компании</a></li>
+        <li class="site-navigation-item"><a class="site-navigation-link" href="delivery.html">Доставка и оплата</a></li>
+        <li class="site-navigation-item"><a class="site-navigation-link" href="about.html">О компании</a></li>
       </ul>
       <ul class="user-navigation">
-        <li>
+        <li class="user-navigation-search">
           <form class="search" method="post" action="https://echo.htmlacademy.ru">
             <input class="input" type="text" placeholder="что ищем?">
-            <button type="submit"></button>
+            <button class="visually-hidden" type="submit"></button>
           </form>
         </li>
-        <li class="login-link">
+        <li class="user-navigation-login-link">
           <a class="login-link" href="login.html">Вход</a>
         </li>
-        <li><a class="basket-link" href="#">Корзина</a></li>
+        <li class="user-navigation-basket-link"><a class="basket-link" href="#">Корзина</a></li>
       </ul>
-      <p>с 10 до 21 ежедневно<br><span>8 812-450-25-25</span></p>
+      <p class="">с 10 до 21 ежедневно<br><span>8 812-450-25-25</span></p>
     </nav>
   </header>
   <main class="container">
     <h1 class="visually-hidden">Волшебное мороженое в интернет-магазине Gllacy</h1>
     <section class="text-slider">
       <ul class="ice-cream">
-        <li>
+        <li class="slider-item">
           <div class="slide1"><img src="img/ice-cream-big1.png" width="1045" height="881" alt=""> Крем-брюле и пломбир с малиновым джемом
           </div>
-          <button class="button slide-button1" type="button"></button>
+          <button class="slide-button" type="button">Первый слайд</button>
         </li>
-        <li>
+        <li class="slider-item">
           <div class="slide2"><img src="img/ice-cream-big2.png" width="1065" height="859" alt=""> Шоколадный пломбир и лимонный сорбет
           </div>
-          <button class="button slide-button2" type="button"></button>
+          <button class="slide-button" type="button">Второй слайд</button>
         </li>
-        <li>
+        <li class="slider-item">
           <div class="slide3"><img src="img/ice-cream-big3.png" width="1079" height="854" alt=""> Пломбир с помадкой и клубничный щербет
           </div>
-          <button class="button slide-button3" type="button"></button>
+          <button class="slide-button" type="button">Третий слайд</button>
         </li>
       </ul>
-      <a class="button" href="#">Давайте оба</a>
+      <a class="button-ice-cream" href="#">Давайте оба</a>
     </section>
     <h2 class="visually-hidden">Выбор мороженого</h2>
     <h3 class="visually-hidden">Подарки к заказу</h3>
@@ -70,13 +70,13 @@
           <h5>Малинка даром!</h5>
           <p>При покупке 2 кг любого фруктового мороженого, добавим <br> в ваш заказ банку малинового варенья бесплатно
           </p>
-          <a class="button-1" href="#">Хочу варенье!</a>
+          <a class="banner-button" href="#">Хочу варенье!</a>
         </li>
         <li class="banner-2">
           <h5>Шоколадки даром!</h5>
           <p>При покупке 2 кг пломбира, добавим в ваш заказ упаковку <br> вкуснейшей шоколадной присыпки совершенно бесплатно.
           </p>
-          <a class="button-1" href="#">Хочу шоколадки!</a>
+          <a class="banner-button" href="#">Хочу шоколадки!</a>
         </li>
       </ul>
     </section>
