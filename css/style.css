@@ -19,7 +19,10 @@ body {
 
 .site-navigation,
 .site-navigation-submenu,
-.user-navigation {
+.user-navigation,
+.ice-cream,
+.bonus,
+.catalog-list {
   list-style: none;
 }
 
@@ -115,4 +118,64 @@ body {
 .phone {
   font-size: 22px;
   line-height: 24px;
+}
+
+.ice-cream {
+  font-size: 60px;
+  line-height: 63px;
+  text-align: center;
+}
+
+.slide-button {
+  border:
+}
+
+.text-slider a,
+.banner a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.button-ice-cream {
+  font-size: 32px;
+  line-height: 44px;
+  background-color: #eb553a;
+  border-radius: 40px;
+  padding: 20px;
+}
+
+.banner h5 {
+  font-size: 35px;
+  line-height: 41px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.banner p {
+  font-size: 18px;
+  line-height: 22px;
+  padding-left: 20px;
+
+}
+
+.banner-1 {
+  background-image: url("../img/raspberry.jpg");
+  /*background-position: top center;*/
+  background-repeat: no-repeat;
+  border-radius: 15px;
+}
+
+.banner-2 {
+  background-image: url("../img/chocolate.jpg");
+  /*background-position: top center;*/
+  background-repeat: no-repeat;
+  border-radius: 15px;
+}
+
+.banner-button {
+  font-size: 18px;
+  line-height: 24px;
+  padding: 10px;
+  background-color: #ee6340;
+  border-radius: 20px;
 }
