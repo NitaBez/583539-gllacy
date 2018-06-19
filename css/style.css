@@ -24,7 +24,8 @@ body {
 .bonus,
 .catalog-list,
 .features-list,
-.contact-list {
+.contact-list,
+.social {
   list-style: none;
 }
 
@@ -256,4 +257,27 @@ body {
 
 .new-in-blog a {
   color: #323232;
+}
+
+.contact-list {
+  color: #323232;
+  font-size: 14px;
+  line-height: 20px;
+  background-color: #fdfefe;
+  border-radius: 20px;
+}
+
+.contact-list span {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: bold;
+}
+
+.button {
+  color: #fefefe;
+  font-size: 18px;
+  line-height: 24px;
+  padding: 10px 20px;
+  background-color: #ef6140;
+  border-radius: 30px;
 }
