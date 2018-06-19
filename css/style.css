@@ -144,6 +144,24 @@ body {
   padding: 20px;
 }
 
+.slide1 {
+  background-image: url("../img/ice-cream-big1.png");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.slide2 {
+  background-image: url("../img/ice-cream-big2.png");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.slide3 {
+  background-image: url("../img/ice-cream-big3.png");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
 .banner h5 {
   font-size: 35px;
   line-height: 41px;
@@ -167,7 +185,6 @@ body {
 
 .banner-2 {
   background-image: url("../img/chocolate.jpg");
-  /*background-position: top center;*/
   background-repeat: no-repeat;
   border-radius: 15px;
 }
@@ -178,4 +195,34 @@ body {
   padding: 10px;
   background-color: #ee6340;
   border-radius: 20px;
+}
+
+.catalog-list p {
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: bold;
+}
+
+.catalog-list span {
+  font-size: 30px;
+  line-height: 45px;
+}
+
+.catalog-item img {
+  border-radius: 150px;
+}
+
+.catalog-list a {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.button-2 {
+  text-decoration: none;
+  padding: 10px;
+  background-color: #ee6340;
+  border-radius: 20px;
+
 }
