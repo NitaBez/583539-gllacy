@@ -142,7 +142,7 @@ body {
 .button-ice-cream {
   font-size: 32px;
   line-height: 44px;
-  background-color: #eb553a;
+  background-image: linear-gradient(#e1613e,#d74632);
   border-radius: 40px;
   padding: 20px;
 }
@@ -196,7 +196,7 @@ body {
   font-size: 18px;
   line-height: 24px;
   padding: 10px;
-  background-color: #ee6340;
+  background-image: linear-gradient(#e1613e,#d74632);
   border-radius: 20px;
 }
 
@@ -225,7 +225,7 @@ body {
 .button-2 {
   text-decoration: none;
   padding: 10px;
-  background-color: #ee6340;
+  background-image: linear-gradient(#e1613e,#d74632);
   border-radius: 20px;
 }
 .features {
@@ -273,11 +273,38 @@ body {
   font-weight: bold;
 }
 
+.contact-list a {
+text-decoration: none;
+}
+
 .button {
   color: #fefefe;
   font-size: 18px;
   line-height: 24px;
   padding: 10px 20px;
-  background-color: #ef6140;
+  background-image: linear-gradient(#e1613e,#d74632);
   border-radius: 30px;
+}
+
+.main-footer a {
+  color: #ffffff;
+}
+
+.documents {
+  text-align: center;
+}
+
+.footer-copyright {
+
+}
+
+.modal {
+  color: #323232;
+  background-color: #f8f7f4;
+}
+
+.modal a {
+  color: #323232;
+  font-size: 13px;
+  line-height: 24px;
 }
