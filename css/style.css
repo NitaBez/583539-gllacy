@@ -35,7 +35,7 @@ body {
   text-decoration: none;
 }
 
-.site-navigation a:hover {
+.site-navigation-item a:hover {
   color: #333333;
   background-color: #f7f6f3;
   padding-left: 10px;
@@ -45,7 +45,7 @@ body {
   border-radius: 20px;
 }
 
-.site-navigation a:focus {
+.site-navigation-item a:focus {
   color: #333333;
   background-color: #f7f6f3;
   padding-left: 10px;
@@ -56,8 +56,19 @@ body {
   box-shadow: inset 0px 2px 1px 0px rgba(105, 105, 105, 0.004);
 }
 
+.site-navigation-submenu a {
+  color: #323232;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+  background-color: #f8f7f4;
+}
+
+.submenu-item-first a {
+  font-weight: bold;
+}
+
 .site-navigation-submenu a:hover {
-  /*color: #333333;*/
   background-color: #fbded7;
   border-radius: 0;
 }
@@ -277,7 +288,7 @@ body {
 text-decoration: none;
 }
 
-.button {
+.contact-list button {
   color: #fefefe;
   font-size: 18px;
   line-height: 24px;
@@ -307,4 +318,86 @@ text-decoration: none;
   color: #323232;
   font-size: 13px;
   line-height: 24px;
+}
+
+.inner-page {
+
+}
+
+a.site-navigation-link-current {
+  background-color: #d07058;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.submenu-item-current a {
+  background-color: #d07058;
+}
+
+.breadcrumbs {
+  list-style: none;
+}
+
+.breadcrumbs a {
+  font-size: 14px;
+  line-height: 16px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.breadcrumbs-current {
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+}
+
+.page-title {
+  font-size: 35px;
+  line-height: 41px;
+  font-weight: bold;
+}
+
+.filter fieldset {
+  border: none;
+}
+
+.filter legend {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+}
+
+.filter ul {
+  list-style: none;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+  /*background-color: #a9bab0;
+  padding: 10px;
+  border-radius: 20px;*/
+}
+
+.filter-item {
+  background-color: #a9bab0;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.down {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+  border: none;
+  background-color: #a9bab0;
+}
+
+.filter-button button {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+  background-color: #a6b7ae;
+  padding: 10px;
+  border-radius: 30px;
 }

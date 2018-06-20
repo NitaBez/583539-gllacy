@@ -9,39 +9,39 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body class="inner-page">
   <header class="main header">
     <nav class="main navigation">
       <a class="main-header-logo" href="index.html">
         <img src="img/logo.svg" width="154" height="64" alt="логотип Gllacy">
       </a>
       <ul class="site-navigation">
-        <li><a href="#">Каталог</a>
-          <ul class="submenu">
-            <li><a href="#">Новинки</a></li>
-            <li class="site-navigation-current">
-              <a href="catalog.html">Сливочное</a></li>
-            <li><a href="#">Щербеты</a></li>
-            <li><a href="#">Фруктовый лед</a></li>
-            <li><a href="#">Мелорин</a></li>
-          </ul>
-        </li>
-        <li><a href="delivery.html">Доставка и оплата</a></li>
-        <li><a href="about.html">О компании</a></li>
+        <li class="site-navigation-item-current"><a class="site-navigation-link-current" href="#">Каталог</a>
+          <ul class="site-navigation-submenu">
+            <li class="submenu-item-first"><a class="submenu-item-link" href="#">Новинки</a></li>
+            <li class="submenu-item-current">
+              <a class="submenu-item" href="catalog.html">Сливочное</a></li>
+              <li class="submenu-item"><a class="submenu-item-link" href="#">Щербеты</a></li>
+              <li class="submenu-item"><a class="submenu-item-link" href="#">Фруктовый лед</a></li>
+              <li class="submenu-item"><a class="submenu-item-link" href="#">Мелорин</a></li>
+            </ul>
+          </li>
+        <li class="site-navigation-item"><a href="delivery.html">Доставка и оплата</a></li>
+        <li class="site-navigation-item"><a href="about.html">О компании</a></li>
       </ul>
       <ul class="user-navigation">
-        <li>
+        <li class="circle">
           <form class="search" method="post" action="https://echo.htmlacademy.ru">
-            <input class="input" type="text" placeholder="что ищем?">
-            <button type="submit"></button>
+            <input class="search-input" type="text" placeholder="что ищем?">
+            <button class="search-button" type="submit"></button>
           </form>
         </li>
-        <li class="login-link">
+        <li class="login">
           <a class="login-link" href="login.html">Вход</a>
         </li>
-        <li><a class="basket-link" href="#">Корзина</a></li>
+        <li class="basket"><a class="basket-link" href="#">Корзина</a></li>
       </ul>
-      <p>с 10 до 21 ежедневно<br><span>8 812-450-25-25</span></p>
+      <p class="header-contacts">с 10 до 21 ежедневно<br><span class="phone">8 812 450-25-25</span></p>
     </nav>
   </header>
   <main class="container">
@@ -59,8 +59,9 @@
           <legend>
             Сортировка:
           </legend>
-          <select name="Сортировка">
-            <option value="по популярности">
+          <div class="filter-item">
+            <select class="down" name="Сортировка">
+              <option value="по популярности">
             по популярности
             </option>
             <option value="сначала недорогие">
@@ -73,17 +74,21 @@
               по жирности
             </option>
           </select>
+          </div>
         </fieldset>
         <fieldset>
           <legend>
             Цена:
           </legend>
+          <div class="filter-item">
           <input type="range" min="0" max="1000">
+        </div>
         </fieldset>
         <fieldset>
           <legend>
             Жирность:
           </legend>
+          <div class="filter-item">
           <ul>
             <li class="filter-option">
               <input type="radio" name="fat" value="0" id="filter-0" />
@@ -102,11 +107,13 @@
               <label for="filter-high">выше 30%</label>
             </li>
           </ul>
+        </div>
         </fieldset>
         <fieldset>
           <legend>
             Наполнители:
           </legend>
+          <div class="filter-item">
           <ul>
             <li class="filter-option">
               <input type="checkbox" name="chocolate" id="filter-chocolate" checked />
@@ -129,6 +136,7 @@
               <label for="filter-jam">джемы</label>
             </li>
           </ul>
+        </div>
         </fieldset>
         <button type="submit" class="filter-button button">Применить</button>
       </form>
