@@ -53,7 +53,6 @@ body {
   padding-top: 14px;
   padding-bottom: 14px;
   border-radius: 20px;
-  box-shadow: inset 0px 2px 1px 0px rgba(105, 105, 105, 0.004);
 }
 
 .site-navigation-submenu a {
@@ -392,12 +391,36 @@ a.site-navigation-link-current {
   background-color: #a9bab0;
 }
 
-.filter-button button {
+button.filter-button {
   color: #ffffff;
   font-size: 16px;
   line-height: 18px;
   font-weight: 500;
   background-color: #a6b7ae;
   padding: 10px;
+  border-color: white;
   border-radius: 30px;
+}
+
+.pagination-list {
+  list-style: none;
+}
+
+.pagination-item a {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.pagination-item-current a {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+  color: #353535;
+  background-color: #ffffff;
+  border-radius: 50px;
+  padding: 5px;
+  text-align: center;
 }
