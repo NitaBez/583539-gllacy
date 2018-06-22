@@ -10,9 +10,9 @@
 </head>
 
 <body class="inner-page">
-  <header class="main header">
-    <nav class="main navigation">
-      <a class="main-header-logo" href="index.html">
+  <header class="main-header">
+    <nav class="main-navigation">
+      <a class="main-header_logo" href="index.html">
         <img src="img/logo.svg" width="154" height="64" alt="логотип Gllacy">
       </a>
       <ul class="site-navigation">
@@ -21,11 +21,11 @@
             <li class="submenu-item-first"><a class="submenu-item-link" href="#">Новинки</a></li>
             <li class="submenu-item-current">
               <a class="submenu-item" href="catalog.html">Сливочное</a></li>
-              <li class="submenu-item"><a class="submenu-item-link" href="#">Щербеты</a></li>
-              <li class="submenu-item"><a class="submenu-item-link" href="#">Фруктовый лед</a></li>
-              <li class="submenu-item"><a class="submenu-item-link" href="#">Мелорин</a></li>
-            </ul>
-          </li>
+            <li class="submenu-item"><a class="submenu-item-link" href="#">Щербеты</a></li>
+            <li class="submenu-item"><a class="submenu-item-link" href="#">Фруктовый лед</a></li>
+            <li class="submenu-item"><a class="submenu-item-link" href="#">Мелорин</a></li>
+          </ul>
+        </li>
         <li class="site-navigation-item"><a href="delivery.html">Доставка и оплата</a></li>
         <li class="site-navigation-item"><a href="about.html">О компании</a></li>
       </ul>
@@ -41,8 +41,9 @@
         </li>
         <li class="basket"><a class="basket-link" href="#">Корзина</a></li>
       </ul>
-      <p class="header-contacts">с 10 до 21 ежедневно<br><span class="phone">8 812 450-25-25</span></p>
+
     </nav>
+    <p class="header-contacts">с 10 до 21 ежедневно<br><span class="phone">8 812 450-25-25</span></p>
   </header>
   <main class="container">
     <ul class="breadcrumbs">
@@ -81,62 +82,62 @@
             Цена:
           </legend>
           <div class="filter-item">
-          <input type="range" min="0" max="1000">
-        </div>
+            <input type="range" min="0" max="1000">
+          </div>
         </fieldset>
         <fieldset>
           <legend>
             Жирность:
           </legend>
           <div class="filter-item">
-          <ul>
-            <li class="filter-option">
-              <input type="radio" name="fat" value="0" id="filter-0" />
-              <label for="filter-0">0%</label>
-            </li>
-            <li class="filter-option">
-              <input type="radio" name="fat" value="10" id="filter-10" checked>
-              <label for="filter-10">до 10%</label>
-            </li>
-            <li class="filter-option">
-              <input type="radio" name="fat" value="30" id="filter-30" />
-              <label for="filter-30">до 30%</label>
-            </li>
-            <li class="filter-option">
-              <input type="radio" name="fat" value="high" id="filter-high" />
-              <label for="filter-high">выше 30%</label>
-            </li>
-          </ul>
-        </div>
+            <ul>
+              <li class="filter-option">
+                <input type="radio" name="fat" value="0" id="filter-0" />
+                <label for="filter-0">0%</label>
+              </li>
+              <li class="filter-option">
+                <input type="radio" name="fat" value="10" id="filter-10" checked>
+                <label for="filter-10">до 10%</label>
+              </li>
+              <li class="filter-option">
+                <input type="radio" name="fat" value="30" id="filter-30" />
+                <label for="filter-30">до 30%</label>
+              </li>
+              <li class="filter-option">
+                <input type="radio" name="fat" value="high" id="filter-high" />
+                <label for="filter-high">выше 30%</label>
+              </li>
+            </ul>
+          </div>
         </fieldset>
         <fieldset>
           <legend>
             Наполнители:
           </legend>
           <div class="filter-item">
-          <ul>
-            <li class="filter-option">
-              <input type="checkbox" name="chocolate" id="filter-chocolate" checked />
-              <label for="filter-chocolate">шоколадные</label>
-            </li>
-            <li class="filter-option">
-              <input type="checkbox" name="sugar" id="filter-sugar" checked />
-              <label for="filter-sugar">сахарные присыпки</label>
-            </li>
-            <li class="filter-option">
-              <input type="checkbox" name="fruits" id="filter-fruits" />
-              <label for="filter-fruits">фрукты</label>
-            </li>
-            <li class="filter-option">
-              <input type="checkbox" name="syrop" id="filter-syrop" />
-              <label for="filter-syrop">сиропы</label>
-            </li>
-            <li class="filter-option">
-              <input type="checkbox" name="jam" id="filter-jam" />
-              <label for="filter-jam">джемы</label>
-            </li>
-          </ul>
-        </div>
+            <ul>
+              <li class="filter-option">
+                <input type="checkbox" name="chocolate" id="filter-chocolate" checked />
+                <label for="filter-chocolate">шоколадные</label>
+              </li>
+              <li class="filter-option">
+                <input type="checkbox" name="sugar" id="filter-sugar" checked />
+                <label for="filter-sugar">сахарные присыпки</label>
+              </li>
+              <li class="filter-option">
+                <input type="checkbox" name="fruits" id="filter-fruits" />
+                <label for="filter-fruits">фрукты</label>
+              </li>
+              <li class="filter-option">
+                <input type="checkbox" name="syrop" id="filter-syrop" />
+                <label for="filter-syrop">сиропы</label>
+              </li>
+              <li class="filter-option">
+                <input type="checkbox" name="jam" id="filter-jam" />
+                <label for="filter-jam">джемы</label>
+              </li>
+            </ul>
+          </div>
         </fieldset>
         <button type="submit" class="filter-button button">Применить</button>
       </form>
