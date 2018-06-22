@@ -11,10 +11,26 @@ body {
   background-color: #849d8f;
 }
 
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  …
+}
+
 .main-navigation {
+  display: flex;
+
   font-size: 16px;
   line-height: 18px;
   font-weight: bold;
+
+}
+
+.main-header_logo {
+  margin: 10px;
 }
 
 .site-navigation,
@@ -29,10 +45,25 @@ body {
   list-style: none;
 }
 
+.site-navigation {
+  display: flex;
+  width: 853px;
+  margin: 0;
+  padding: 0;
+  margin-top: 30px;
+}
+
+.user-navigation {
+  display: flex;
+  margin-top: 20px;
+  padding: 0;
+}
+
 .site-navigation a,
 .user-navigation a {
   color: #ffffff;
   text-decoration: none;
+  padding: 10px;
 }
 
 .site-navigation-item a:hover {
@@ -55,12 +86,17 @@ body {
   border-radius: 20px;
 }
 
+.site-navigation-submenu {
+  position: absolute;
+}
+
 .site-navigation-submenu a {
   color: #323232;
   font-size: 14px;
   line-height: 16px;
   font-weight: 400;
   background-color: #f8f7f4;
+  padding: 5px;
 }
 
 .submenu-item-first a {
@@ -126,6 +162,7 @@ body {
 .header-contacts {
   font-size: 14px;
   line-height: 16px;
+  text-align: right;
 }
 
 .phone {
