@@ -174,7 +174,14 @@ body {
   line-height: 24px;
 }
 
+.container {
+  width: 1146px;
+  margin: 0 auto;
+  padding: 0;
+}
+
 .ice-cream {
+  display: flex;
   font-size: 60px;
   line-height: 63px;
   text-align: center;
