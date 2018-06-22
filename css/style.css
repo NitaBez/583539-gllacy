@@ -206,12 +206,23 @@ body {
   font-size: 60px;
   line-height: 60px;
   text-align: center;
-  margin: 0;
-  padding: 0;
+  margin: 0 auto;
+  margin-bottom: 27px;
 }
 
 .slide-button {
-  border:
+  display: inline-block;
+  position: absolute;
+  bottom: 63px;
+  left: 0;
+  width: 17px;
+  height: 17px;
+  margin-right: 8px;
+  vertical-align: top;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  cursor: pointer;
 }
 
 .text-slider a,
@@ -232,6 +243,7 @@ body {
   text-shadow: 0 2px 5px rgba(160, 32, 11, 0.76);
   box-shadow: 0 2px 2px rgba(172, 16, 0, 0.64);
   border: none;
+  cursor: pointer;
 }
 
 .button-ice-cream:hover {
@@ -245,21 +257,15 @@ body {
  }
 
 .slide1 {
-  /*background-image: url("../img/ice-cream-big1.png");
-  background-position: top center;
-  background-repeat: no-repeat;*/
+  margin-bottom: 40px;
 }
 
 .slide2 {
-  background-image: url("../img/ice-cream-big2.png");
-  background-position: top center;
-  background-repeat: no-repeat;
+
 }
 
 .slide3 {
-  background-image: url("../img/ice-cream-big3.png");
-  background-position: top center;
-  background-repeat: no-repeat;
+
 }
 
 .banner h5 {
