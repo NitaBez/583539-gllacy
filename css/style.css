@@ -189,20 +189,22 @@ body {
   line-height: 24px;
 }
 
-.container {
+/*.container {
+
   width: 1146px;
   margin: 0 auto;
   padding: 20px;
-}
+}*/
 
 .text-slider {
   position: relative;
-  padding-top: 321px;
+  padding-top: 270px;
   text-align: center;
   color: #ffffff;
 }
 
 .ice-cream {
+  width: 700px;
   font-size: 60px;
   line-height: 60px;
   text-align: center;
@@ -213,7 +215,7 @@ body {
 .slide-button {
   display: inline-block;
   position: absolute;
-  bottom: 63px;
+  bottom: 55px;
   left: 0;
   width: 17px;
   height: 17px;
@@ -244,6 +246,7 @@ body {
   box-shadow: 0 2px 2px rgba(172, 16, 0, 0.64);
   border: none;
   cursor: pointer;
+  margin-bottom: 17px;
 }
 
 .button-ice-cream:hover {
@@ -268,21 +271,21 @@ body {
 
 }
 
-.banner h5 {
-  font-size: 35px;
-  line-height: 41px;
-  padding-left: 20px;
-  padding-top: 20px;
-}
-
-.banner p {
-  font-size: 18px;
-  line-height: 22px;
-  padding-left: 20px;
+.bonus {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
 
 }
 
 .banner-1 {
+  width: 560px;
+  height: 230px;
+  margin-left: 26px;
+  margin-right: 27px;
+  padding: 0;
+
   background-image: url("../img/raspberry.jpg");
   /*background-position: top center;*/
   background-repeat: no-repeat;
@@ -290,17 +293,43 @@ body {
 }
 
 .banner-2 {
+  width: 560px;
+  height: 230px;
+  margin-right: 26px;
+  padding: 0;
+
   background-image: url("../img/chocolate.jpg");
   background-repeat: no-repeat;
   border-radius: 15px;
 }
 
+.banner h5 {
+  font-size: 35px;
+  line-height: 41px;
+  padding: 0;
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-bottom: 15px;
+
+}
+
+.banner p {
+  font-size: 18px;
+  line-height: 22px;
+  margin-left: 20px;
+  padding-bottom: 43px;
+
+}
+
 .banner-button {
+  display: inline-block;
   font-size: 18px;
   line-height: 24px;
-  padding: 10px;
+  padding: 10px 30px;
   background-image: linear-gradient(#e1613e,#d74632);
-  border-radius: 20px;
+  border-radius: 30px;
+  
+  margin-bottom: 20px;
 }
 
 .catalog-list p {
