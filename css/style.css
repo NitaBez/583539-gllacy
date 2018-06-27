@@ -65,6 +65,7 @@ body {
 
 .site-navigation {
   display: flex;
+  justify-content: flex-start;
   width: 560px;
   margin-top: 30px;
   margin-right: 26px;
@@ -87,7 +88,12 @@ body {
   color: #ffffff;
   text-decoration: none;
   padding: 15px 10px;
+  margin-left: 15px;
 }
+
+/*.site-navigation a {
+  text-decoration: underline;
+}*/
 
 .site-navigation-item a:hover {
   color: #333333;
@@ -109,12 +115,13 @@ body {
   border-radius: 20px;
 }
 
-.site-navigation-item ul {
-
+.site-navigation-submenu {
+  
   position: absolute;
+  z-index: 1;
   top: 70px;
   left: 215px;
-  min-width: 145px;
+  min-width: 150px;
   background-color: #f8f7f4;
   border-radius: 5px;
   margin: 0;
@@ -122,14 +129,13 @@ body {
 }
 
 .site-navigation-submenu a {
+  text-align: left;
   display: block;
   color: #323232;
   font-size: 14px;
   line-height: 16px;
   font-weight: 400;
   padding-left: 20px;
-
-  /*background-color: #f8f7f4;*/
 }
 
 .submenu-item-first a {
@@ -137,7 +143,7 @@ body {
 }
 
 .site-navigation-submenu a:hover {
-
+  display: block;
   background-color: #fbded7;
   border-radius: 0;
   padding-left: 20px;
