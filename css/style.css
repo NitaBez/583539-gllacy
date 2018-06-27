@@ -86,7 +86,7 @@ body {
 .user-navigation a {
   color: #ffffff;
   text-decoration: none;
-  padding: 10px;
+  padding: 15px 10px;
 }
 
 .site-navigation-item a:hover {
@@ -109,12 +109,26 @@ body {
   border-radius: 20px;
 }
 
+.site-navigation-item ul {
+
+  position: absolute;
+  top: 70px;
+  left: 215px;
+  min-width: 145px;
+  background-color: #f8f7f4;
+  border-radius: 5px;
+  margin: 0;
+  padding: 0;
+}
+
 .site-navigation-submenu a {
-  display: inline-block;
+  display: block;
   color: #323232;
   font-size: 14px;
   line-height: 16px;
   font-weight: 400;
+  padding-left: 20px;
+
   /*background-color: #f8f7f4;*/
 }
 
@@ -122,37 +136,16 @@ body {
   font-weight: bold;
 }
 
-.site-navigation-submenu {
-
-  position: absolute;
-  top: 70px;
-  left: 215px;
-  min-width: 138px;
-  background-color: #f8f7f4;
-  border-radius: 5px;
-  padding-top: 0px;
-  padding-left: 10px;
-}
-
 .site-navigation-submenu a:hover {
 
   background-color: #fbded7;
   border-radius: 0;
-  
+  padding-left: 20px;
 }
 
 .site-navigation-submenu a:focus {
   background-color: #f6b5a5;
 }
-
-
-
-.site-navigation-item li:hover .site-navigation-submenu {
-  display: inline-block;
-  background-color: #fbded7;
-}
-
-
 
 .circle {
   background-color: #a1b4a9;
