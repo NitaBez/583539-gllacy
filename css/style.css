@@ -1,7 +1,6 @@
 body {
   margin: 0;
   padding: 0;
-  width: 1200px;
 
   font-family: "Roboto Bold", Arial, sans-serif;
   font-size: 16px;
@@ -13,8 +12,9 @@ body {
 }
 
 .site-wrapper {
-  min-width: 940px;
-  background-color: #849d8f;
+  width: 1200px;
+  margin: 0 auto;
+
   background-image: url("../img/ice-cream-big1.png");
   background-repeat: no-repeat;
   background-position: top center;
@@ -24,6 +24,7 @@ body {
   min-width: 940px;
   margin: 0 auto;
   padding: 0 20px;
+
 }
 
 .visually-hidden {
@@ -108,31 +109,50 @@ body {
   border-radius: 20px;
 }
 
-.site-navigation-submenu {
-  position: absolute;
-}
-
 .site-navigation-submenu a {
+  display: inline-block;
   color: #323232;
   font-size: 14px;
   line-height: 16px;
   font-weight: 400;
-  background-color: #f8f7f4;
-  padding: 5px;
+  /*background-color: #f8f7f4;*/
 }
 
 .submenu-item-first a {
   font-weight: bold;
 }
 
+.site-navigation-submenu {
+
+  position: absolute;
+  top: 70px;
+  left: 215px;
+  min-width: 138px;
+  background-color: #f8f7f4;
+  border-radius: 5px;
+  padding-top: 0px;
+  padding-left: 10px;
+}
+
 .site-navigation-submenu a:hover {
+
   background-color: #fbded7;
   border-radius: 0;
+  
 }
 
 .site-navigation-submenu a:focus {
   background-color: #f6b5a5;
 }
+
+
+
+.site-navigation-item li:hover .site-navigation-submenu {
+  display: inline-block;
+  background-color: #fbded7;
+}
+
+
 
 .circle {
   background-color: #a1b4a9;
@@ -214,7 +234,7 @@ body {
   display: inline-block;
   position: absolute;
   bottom: 35px;
-  left: 0;
+  left: 5px;
   width: 17px;
   height: 17px;
   margin-right: 8px;
@@ -350,19 +370,22 @@ body {
 
 .catalog-list {
   display: flex;
-
-  margin-left: 27px;
-  margin-right: auto;
+  flex-wrap: wrap;
+  margin: 0;
   padding: 0;
+}
 
-
+.catalog-list li:last-child {
+  margin-right: 0;
 }
 
 .catalog-item {
   font-size: 45px;
   line-height: 45px;
   font-weight: bold;
-  /*
+  width: 267px;
+  margin-left: 27px;
+  /*margin-left: 27px;
   padding-left: 30px;
   padding-right: 30px;*/
 
