@@ -456,7 +456,7 @@ input[type="radio"].visually-hidden {
 .catalog-item p {
   position: absolute;
   top: 165px;
-
+  text-shadow: 0px 1px 3px rgba(49, 50, 53, 0.5);
 }
 
 .catalog-item span {
@@ -768,11 +768,52 @@ a.site-navigation-link-current {
   font-size: 35px;
   line-height: 41px;
   font-weight: bold;
+  padding-left: 27px;
+}
+
+.filters {
+  display: flex;
+  /*flex-wrap: wrap;*/
+  width: 900px;
 }
 
 .filter fieldset {
+  /*display: flex;
+  flex-wrap: wrap;*/
   border: none;
 }
+
+.filter {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sort {
+  width: 195px;
+  
+}
+
+.price {
+  width: 220px;
+}
+
+.fat-filter {
+  display: flex;
+  width: 415px;
+  justify-content: space-between;
+}
+
+.fat-filter li {
+  margin-right: 15px;
+}
+
+.topping {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 705px;
+}
+
 
 .filter legend {
   font-size: 14px;
@@ -785,15 +826,15 @@ a.site-navigation-link-current {
   font-size: 16px;
   line-height: 18px;
   font-weight: 500;
-  /*background-color: #a9bab0;
-  padding: 10px;
-  border-radius: 20px;*/
+  margin: 0;
+  padding: 0;
 }
 
 .filter-item {
   background-color: #a9bab0;
   padding: 10px;
   border-radius: 20px;
+
 }
 
 .down {
@@ -811,7 +852,10 @@ button.filter-button {
   line-height: 18px;
   font-weight: 500;
   background-color: #a6b7ae;
-  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
   border-color: white;
   border-radius: 30px;
 }
