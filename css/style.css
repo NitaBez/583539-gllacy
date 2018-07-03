@@ -774,13 +774,14 @@ a.site-navigation-link-current {
 .filters {
   display: flex;
   /*flex-wrap: wrap;*/
-  width: 900px;
+
 }
 
 .filter fieldset {
   /*display: flex;
   flex-wrap: wrap;*/
   border: none;
+  padding: 0;
 }
 
 .filter {
@@ -790,7 +791,7 @@ a.site-navigation-link-current {
 
 .sort {
   width: 195px;
-  
+
 }
 
 .price {
@@ -858,6 +859,7 @@ button.filter-button {
   padding-right: 30px;
   border-color: white;
   border-radius: 30px;
+  align-self: flex-end;
 }
 
 .pagination-list {
