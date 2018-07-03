@@ -652,7 +652,6 @@ text-decoration: none;
 .documents {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   width: 560px;
 
 }
@@ -739,20 +738,30 @@ a.site-navigation-link-current {
 }
 
 .breadcrumbs {
+  display: flex;
   list-style: none;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
 }
 
 .breadcrumbs a {
   font-size: 14px;
   line-height: 16px;
-  text-decoration: none;
+  /*text-decoration: none;*/
   color: #ffffff;
 }
 
-.breadcrumbs-current {
-  font-size: 14px;
-  line-height: 16px;
-  color: #ffffff;
+.breadcrumbs li {
+  display: block;
+  padding-right: 22px;
+}
+
+.breadcrumbs li:first-child {
+  margin-left: 27px;
 }
 
 .page-title {
