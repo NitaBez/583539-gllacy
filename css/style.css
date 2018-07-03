@@ -469,7 +469,6 @@ input[type="radio"].visually-hidden {
 }
 
 .catalog-item a {
-
   font-size: 16px;
   line-height: 22px;
   font-weight: 500;
@@ -477,8 +476,6 @@ input[type="radio"].visually-hidden {
   color: #ffffff;
   margin-top: 20px;
 }
-
-
 
 .button-2 {
   display: none;
@@ -641,21 +638,37 @@ text-decoration: none;
 
 .social {
   display: flex;
+  flex-wrap: wrap;
   width: 267px;
+  margin-left: 27px;
+}
+
+.social-button {
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
 }
 
 .documents {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   width: 560px;
-  text-align: center;
+
+}
+
+.documents a {
+  display: block;
+  width: 267px;
 }
 
 .footer-copyright {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: flex-end;
   padding-left: 77px;
-width: 267px;
+  width: 267px;
 }
 
 .modal {
