@@ -57,7 +57,7 @@ input[type="radio"].visually-hidden {
 
 .main-header_logo {
   margin-top: 10px;
-  margin-left: 30px;
+  margin-left: 28px;
 }
 
 .site-navigation,
@@ -98,7 +98,15 @@ input[type="radio"].visually-hidden {
 .user-navigation a {
   color: #ffffff;
   text-decoration: none;
-  padding: 15px 10px;
+  padding-left: 8px;
+  padding-right: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-left: 2px;
+}
+
+.site-navigation a:last-child {
+  margin-left: 0;
 }
 
 /*.site-navigation a {
@@ -106,7 +114,7 @@ input[type="radio"].visually-hidden {
 }*/
 
 .site-navigation-item {
-  padding-left: 20px;
+  padding-left: 10px;
 }
 
 /*.site-navigation-item:first-child {
@@ -116,10 +124,10 @@ input[type="radio"].visually-hidden {
 .site-navigation-item a:hover {
   color: #333333;
   background-color: #f7f6f3;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 14px;
-  padding-bottom: 14px;
+  padding-left: 8px;
+  padding-right: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   border-radius: 20px;
 }
 
@@ -128,18 +136,18 @@ input[type="radio"].visually-hidden {
   background-color: #f7f6f3;
   padding-left: 10px;
   padding-right: 10px;
-  padding-top: 14px;
-  padding-bottom: 14px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   border-radius: 20px;
 }
 
 .site-navigation-submenu {
-  display: none;
+  /*display: none;*/
   position: absolute;
   z-index: 1;
-  top: 70px;
-  left: 235px;
-  min-width: 150px;
+  top: 60px;
+  left: 225px;
+  min-width: 143px;
   background-color: #f8f7f4;
   border-radius: 5px;
   margin: 0;
@@ -148,6 +156,7 @@ input[type="radio"].visually-hidden {
 
 .site-navigation-item:hover ul {
   display: block;
+  box-sizing: border-box;
 }
 
 .site-navigation-submenu a {
@@ -156,21 +165,28 @@ input[type="radio"].visually-hidden {
   font-size: 14px;
   line-height: 16px;
   font-weight: 400;
-  padding-left: 20px;
+  /*padding-left: 20px;*/
 }
 
 .submenu-item-first a {
+  display: block;
   font-weight: bold;
+  border-bottom: 1px solid #d1d0ce;
 }
 
-.site-navigation-submenu a:hover {
+.submenu-item-first {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.site-navigation-submenu li:hover {
   display: block;
   background-color: #fbded7;
   border-radius: 0;
-  padding-left: 20px;
+
 }
 
-.site-navigation-submenu a:focus {
+.site-navigation-submenu li:focus {
   background-color: #f6b5a5;
 }
 
@@ -640,7 +656,11 @@ text-decoration: none;
   display: flex;
   flex-wrap: wrap;
   width: 267px;
+  margin: 0;
+  padding: 0;
+  margin-top: 35px;
   margin-left: 27px;
+
 }
 
 .social-button {
